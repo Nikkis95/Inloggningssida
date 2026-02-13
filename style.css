@@ -1,0 +1,93 @@
+#NicolePage{
+    background-color: rgb(233, 172, 192);
+    color: hotpink;
+     text-align: center;
+     text-decoration-line: underline;
+
+ }
+
+#welcomeLogin{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    display: none;
+    color: deeppink;
+   
+}
+
+.welcomeIn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.row{
+    flex-direction: row;
+}
+
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+#loggInContainer{
+    flex-direction: column;
+    display: flex;
+    border: 1px solid black;
+    padding: 10%;
+    
+}
+
+.containerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+input{
+    padding: 2px;
+    margin-bottom: 10px;
+
+}
+
+#text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    text-align: center;
+    color: rgb(6, 36, 61);
+   
+}
+
+#textTwo{
+    color: black;
+   font-size: 30x;
+}
+
+div button{
+    background-color: rgb(107, 170, 230);
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+div button:hover{
+    background-color: rgb(3, 114, 151);
+    color: white;
+
+}
+
+#message{
+    text-align: center;
+  }
